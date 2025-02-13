@@ -1,11 +1,10 @@
 # NEVER EDIT MANUALLY. Changes here will be overwritten by Copier
-_commit: dc9d13f
+_commit: 86ab085
 _src_path: gh:easyscience/templates-copier
-description: ejnfejkwnvkj
-docs_url: wefgew
+description: This is a project description
+docs_url: https://docs.superduper.org/lib
 package_name: superduper
 project_name: SuperDuper
 repo: superduper-lib
-site_url: gerwg
+site_url: https://superduper.org
 template_type: project-lib
-year: 2024

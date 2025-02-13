@@ -1,4 +1,4 @@
-**SuperDuper** is a ejnfejkwnvkj.
+**SuperDuper** is a This is a project description.
 
 **SuperDuper** is built upon the [EasyScience] framework, which provides
 essential tools for developing scientific libraries and applications.
@@ -32,8 +32,8 @@ requests.
 [Contributing Guidelines]: https://github.com/easyscience/superduper-lib/blob/master/CONTRIBUTING.md
 [EasyScience]: https://easyscience.software
 [European Spallation Source (ESS)]: https://ess.eu
-[Main Website]: gerwg
-[Documentation]: wefgew
+[Main Website]: https://superduper.org
+[Documentation]: https://docs.superduper.org/lib
 [Discussions]: https://github.com/easyscience/superduper-lib/discussions
 [Issue Tracker]: https://github.com/easyscience/superduper-lib/issues
 [Source Code]: https://github.com/easyscience/superduper-lib
