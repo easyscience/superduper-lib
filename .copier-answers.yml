@@ -1,0 +1,13 @@
+# NEVER EDIT MANUALLY. Changes here will be overwritten by Copier
+_commit: b66ef26
+_src_path: gh:easyscience/templates-copier
+app_docs_url: https://docs.easydiffraction.org/lib
+app_repo: diffraction-app
+description: efewfw
+has_app: true
+has_lib: false
+hub_repo: diffraction
+hub_url: https://easydiffraction.org
+project_name: EasyDiffraction
+template_dir: project-hub
+year: 2025
