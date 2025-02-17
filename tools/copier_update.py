@@ -1,24 +1,30 @@
 from copier import run_update
+import requests
+import tomllib  # Available in Python 3.11 and above
+
+# URL of the raw TOML file
+url = "https://raw.githubusercontent.com/easyscience/superduper/master/project.toml"
+
+# Send a GET request to fetch the raw file content
+response = requests.get(url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    try:
+        # Parse the TOML content
+        config = tomllib.loads(response.text)
+        # Access data from the TOML
+        print(config)
+    except tomllib.TOMLDecodeError as exc:
+        print(f"Error parsing TOML: {exc}")
+else:
+    print(f"Failed to fetch file: {response.status_code}")
 
 # Define the template source and destination path
 destination_path = "./"
 
 # Optional: Define data to pre-answer template questions
-data = {
-    "app_docs_url": "https://docs.easydiffraction.org/lib",
-    "app_repo": "diffraction-app",
-    "description": "efewfw",
-    "has_app": "true",
-    "has_lib": "true",
-    'hub_repo': "diffraction",
-    "hub_url": "https://easydiffraction.org",
-    "lib_docs_url": "https://docs.easydiffraction.org/lib",
-    'lib_repo': "diffraction-lib",
-    "package_name": "easydiffraction",
-    'project_name': 'EasyDiffraction',
-    'year': "2025",
-    "template_dir": 'desktop-app'
-}
+data = config
 
 # Run the copier copy function
 run_update(
