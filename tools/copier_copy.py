@@ -21,7 +21,7 @@ else:
     print(f"Failed to fetch file: {response.status_code}")
 
 # Define the template source and destination path
-template_src = "https://github.com/easyscience/templates-copier.git"
+template_src = "https://github.com/easyscience/templates-python-lib.git"
 destination_path = "./"
 
 # Optional: Define data to pre-answer template questions
