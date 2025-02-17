@@ -1,0 +1,20 @@
+# NEVER EDIT MANUALLY. Changes here will be overwritten by Copier
+_commit: a963036
+_src_path: https://github.com/easyscience/templates-desktop-app.git
+lib:
+    name: easydiffraction
+    python:
+        max: '3.12'
+        min: '3.9'
+project:
+    description: Diffraction data analysis
+    name: EasyDiffraction
+    repos:
+        app: diffraction-app
+        hub: diffraction
+        lib: diffraction-lib
+    urls:
+        app_docs: https://docs.easydiffraction.org/app
+        hub: https://easydiffraction.org
+        lib_docs: https://docs.easydiffraction.org/lib
+    year: 2024
