@@ -1,6 +1,6 @@
 **EasyDiffraction** is a .
 
-**** is built upon the [EasyScience] framework, which provides
+**EasyDiffraction** is built upon the [EasyScience] framework, which provides
 essential tools for developing scientific libraries and applications.
 
 ## Useful Links
