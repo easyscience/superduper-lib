@@ -1,5 +1,5 @@
 # NEVER EDIT MANUALLY. Changes here will be overwritten by Copier
-_commit: '2811148'
+_commit: 587b1f8
 _src_path: https://github.com/easyscience/templates-copier.git
 app_docs_url: https://docs.easydiffraction.org/lib
 app_repo: diffraction-app
@@ -12,5 +12,5 @@ lib_docs_url: https://docs.easydiffraction.org/lib
 lib_repo: diffraction-lib
 package_name: easydiffraction
 project_name: EasyDiffraction
-template_dir: desktop-app
+template_dir: python-lib
 year: 2025
