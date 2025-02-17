@@ -7,7 +7,7 @@ name = ''
 dynamic = ['version'] # Use versioningit to manage the version
 description = ''
 authors = [
-  { name = ' contributors', email = '' },
+  { name = 'EasyDiffraction contributors', email = '' },
 ]
 readme = 'README.md'
 license = { file = 'LICENSE' }

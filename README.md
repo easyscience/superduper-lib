@@ -1,11 +1,11 @@
 **** is a .
 
-**** is built upon the [EasyScience] framework, which provides
+**EasyDiffraction** is built upon the [EasyScience] framework, which provides
 essential tools for developing scientific libraries and applications.
 
 ## Useful Links
 
-- [Main Website] - Learn more about .
+- [Main Website] - Learn more about EasyDiffraction.
 - [Documentation] - Access the full documentation.
 - [Discussions] - Ask questions or share ideas.
 - [Issue Tracker] - Report bugs or request new features.
@@ -13,7 +13,7 @@ essential tools for developing scientific libraries and applications.
 
 ## Contributing
 
-We welcome contributions! Our vision is for **** to be a
+We welcome contributions! Our vision is for **EasyDiffraction** to be a
 community-driven, open-source project supported by a diverse group of
 contributors.
 
@@ -25,7 +25,7 @@ requests.
 
 ## License
 
-**** is licensed under the [BSD 3-Clause License].
+**EasyDiffraction** is licensed under the [BSD 3-Clause License].
 
 <!-- prettier-ignore-start -->
 [BSD 3-Clause License]: https://github.com/easyscience//blob/master/LICENSE

@@ -1,31 +1,54 @@
 from copier import run_copy
 import requests
 import tomllib  # Available in Python 3.11 and above
+import toml
+import yaml
 
-# URL of the raw TOML file
+def dict_to_yaml(data):
+    """
+    Convert a dictionary to a YAML string.
+
+    Args:
+        data (dict): Dictionary to convert.
+
+    Returns:
+        str: YAML-formatted string.
+    """
+    return yaml.dump(data, default_flow_style=False, sort_keys=False)
+
+def fetch_and_convert_toml(url):
+    """
+    Fetch a TOML file from a given URL and convert it into a dictionary
+    with section names as key prefixes.
+
+    Args:
+        url (str): URL of the TOML file.
+
+    Returns:
+        dict: Transformed dictionary with prefixed keys.
+    """
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an error if the request fails
+
+    parsed_toml = toml.loads(response.text)
+
+    result_dict = {}
+    for section, values in parsed_toml.items():
+        for key, value in values.items():
+            new_key = f"{section}_{key}"
+            result_dict[new_key] = value
+
+    return result_dict
+
+# Optional: Define data to pre-answer template questions
 url = "https://raw.githubusercontent.com/easyscience/superduper/master/project.toml"
+data = fetch_and_convert_toml(url)
 
-# Send a GET request to fetch the raw file content
-response = requests.get(url)
-
-# Check if the request was successful
-if response.status_code == 200:
-    try:
-        # Parse the TOML content
-        config = tomllib.loads(response.text)
-        # Access data from the TOML
-        print(config)
-    except tomllib.TOMLDecodeError as exc:
-        print(f"Error parsing TOML: {exc}")
-else:
-    print(f"Failed to fetch file: {response.status_code}")
+print(dict_to_yaml(data))
 
 # Define the template source and destination path
 template_src = "https://github.com/easyscience/templates-python-lib.git"
 destination_path = "./"
-
-# Optional: Define data to pre-answer template questions
-data = config
 
 # Run the copier copy function
 run_copy(
