@@ -1,5 +1,5 @@
 # NEVER EDIT MANUALLY. Changes here will be overwritten by Copier
-_commit: 9c8b1cd
+_commit: a29c700
 _src_path: https://github.com/easyscience/templates-python-lib.git
 lib:
     name: easydiffraction
