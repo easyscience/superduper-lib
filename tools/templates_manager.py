@@ -93,18 +93,18 @@ if __name__ == "__main__":
     parser.add_argument("action", choices=["copy", "update"], help="Action to perform: 'copy' or 'update'.")
 
     # Required argument: template type
-    parser.add_argument("template-type", choices=TEMPLATE_URLS.keys(), help="Type of template to use.")
+    parser.add_argument("template_type", choices=TEMPLATE_URLS.keys(), help="Type of template to use.")
 
     # Required argument: destination path
     parser.add_argument("--dest", default="./", help="Destination path for the template.")
 
     # Repository name (ONLY required for 'copy' action)
-    parser.add_argument("--config-repo", help="Repository under 'easyscience' where project.toml is located (only for 'copy').")
+    parser.add_argument("--config_repo", help="Repository under 'easyscience' where project.toml is located (only for 'copy').")
 
     args = parser.parse_args()
 
     # Ensure repository is only required for 'copy'
     if args.action == "copy" and not args.config_repo:
-        parser.error("The 'copy' action requires --config-repo to be specified.")
+        parser.error("The 'copy' action requires --config_repo to be specified.")
 
     copier_action(args.action, args.template_type, args.dest, args.config_repo)
