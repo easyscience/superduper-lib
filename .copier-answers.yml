@@ -1,5 +1,5 @@
 # NEVER EDIT MANUALLY. Changes here will be overwritten by Copier
-_commit: 09b811b
+_commit: ea1568c
 _src_path: https://github.com/easyscience/templates-python-lib.git
 lib_max_python: '3.12'
 lib_min_python: '3.9'
