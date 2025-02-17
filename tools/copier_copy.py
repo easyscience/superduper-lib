@@ -1,4 +1,4 @@
-from copier import run_copy
+from copier import run_copy, run_update
 import requests
 import tomllib  # Available in Python 3.11 and above
 import toml
