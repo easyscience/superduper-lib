@@ -54,7 +54,7 @@ destination_path = "./"
 # Run the copier copy function
 run_update(
     dst_path=destination_path,
-    data=data,  # Remove this line if you prefer interactive prompts
+    answers_file='.copier-answers.python-lib.yml',
     defaults=True,  # Set to True to use default answers without prompting
     overwrite=True,  # Set to True to overwrite existing files if any
     conflict="inline",  # How to handle conflicts: "inline" or "rej"
