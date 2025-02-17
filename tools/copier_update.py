@@ -41,7 +41,7 @@ def fetch_and_convert_toml(url):
     return result_dict
 
 # Optional: Define data to pre-answer template questions
-url = "https://raw.githubusercontent.com/easyscience/superduper/master/project.toml"
+url = "https://raw.githubusercontent.com/easyscience/superduper/refs/heads/master/project.toml"
 data = fetch_and_convert_toml(url)
 
 print(dict_to_yaml(data))
