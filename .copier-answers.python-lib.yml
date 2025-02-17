@@ -1,0 +1,15 @@
+# NEVER EDIT MANUALLY. Changes here will be overwritten by Copier
+_commit: cd8d74f
+_src_path: https://github.com/easyscience/templates-python-lib.git
+lib:
+    max_python: 3.12
+    min_python: 3.9
+    package_name: easydiffraction
+project:
+    description: Diffraction data analysis
+    name: EasyDiffraction
+    year: 2025
+repos:
+    app: diffraction-app
+    hub: diffraction
+    lib: diffraction-lib
