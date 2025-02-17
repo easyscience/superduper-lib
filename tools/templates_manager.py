@@ -53,7 +53,7 @@ def copier_action(action: str, template_type: str, destination_path: str, reposi
 
         # Fetch and convert TOML data
         try:
-            data: Dict[str, Any] = fetch_toml_to_dict(parsed_toml)
+            data: Dict[str, Any] = fetch_toml_to_dict(project_config_url)
         except requests.exceptions.RequestException as e:
             print(f"Failed to fetch project configuration from '{project_config_url}'.\nError: {e}")
             return
