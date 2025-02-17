@@ -12,5 +12,5 @@ lib_docs_url: https://docs.easydiffraction.org/lib
 lib_repo: diffraction-lib
 package_name: easydiffraction
 project_name: EasyDiffraction
-template_dir: python-lib
+template_dir: desktop-app
 year: 2025

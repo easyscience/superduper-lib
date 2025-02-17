@@ -18,7 +18,7 @@ data = {
     "package_name": "easydiffraction",
     'project_name': 'EasyDiffraction',
     'year': "2025",
-    "template_dir": 'python-lib'
+    "template_dir": 'desktop-app'
 }
 
 # Run the copier copy function
