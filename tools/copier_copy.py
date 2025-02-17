@@ -6,18 +6,19 @@ destination_path = "./"
 
 # Optional: Define data to pre-answer template questions
 data = {
-    "app_docs_url": "https://docs.easydiffraction.org/lib"
-    "app_repo": "diffraction-app"
-    "description": "efewfw"
-    "has_app": "true"
-    "has_lib": "true"
-    'hub_repo': "diffraction"
-    "hub_url": "https://easydiffraction.org"
-    "lib_docs_url": "https://docs.easydiffraction.org/lib"
-    'lib_repo': "diffraction-lib"
-    "package_name": "easydiffraction"
-    'project_name': 'EasyDiffraction'
-    'year': "2025"
+    "app_docs_url": "https://docs.easydiffraction.org/lib",
+    "app_repo": "diffraction-app",
+    "description": "efewfw",
+    "has_app": "true",
+    "has_lib": "true",
+    'hub_repo': "diffraction",
+    "hub_url": "https://easydiffraction.org",
+    "lib_docs_url": "https://docs.easydiffraction.org/lib",
+    'lib_repo': "diffraction-lib",
+    "package_name": "easydiffraction",
+    'project_name': 'EasyDiffraction',
+    'year': "2025",
+    "template_dir": 'python-lib'
 }
 
 # Run the copier copy function
