@@ -1,11 +1,13 @@
+# **EasyDiffraction**
+
 **EasyDiffraction** is a Python package for diffraction data analysis.
 
-**EasyDiffraction** is built upon the [EasyScience] framework, which provides
+**** is built upon the [EasyScience] framework, which provides
 essential tools for developing scientific libraries and applications.
 
 ## Useful Links
 
-- [Main Website] - Learn more about EasyDiffraction.
+- [Main Website] - Learn more about .
 - [Documentation] - Access the full documentation.
 - [Discussions] - Ask questions or share ideas.
 - [Issue Tracker] - Report bugs or request new features.
@@ -13,7 +15,7 @@ essential tools for developing scientific libraries and applications.
 
 ## Contributing
 
-We welcome contributions! Our vision is for **EasyDiffraction** to be a
+We welcome contributions! Our vision is for **** to be a
 community-driven, open-source project supported by a diverse group of
 contributors.
 
@@ -25,16 +27,16 @@ requests.
 
 ## License
 
-**EasyDiffraction** is licensed under the [BSD 3-Clause License].
+**** is licensed under the [BSD 3-Clause License].
 
 <!-- prettier-ignore-start -->
-[BSD 3-Clause License]: https://github.com/easyscience/diffraction-lib/blob/master/LICENSE
-[Contributing Guidelines]: https://github.com/easyscience/diffraction-lib/blob/master/CONTRIBUTING.md
+[BSD 3-Clause License]: https://github.com/easyscience//blob/master/LICENSE
+[Contributing Guidelines]: https://github.com/easyscience//blob/master/CONTRIBUTING.md
 [EasyScience]: https://easyscience.software
 [European Spallation Source (ESS)]: https://ess.eu
-[Main Website]: https://diffraction.org
-[Documentation]: https://docs.diffraction.org/lib
-[Discussions]: https://github.com/easyscience/diffraction-lib/discussions
-[Issue Tracker]: https://github.com/easyscience/diffraction-lib/issues
-[Source Code]: https://github.com/easyscience/diffraction-lib
+[Main Website]: 
+[Documentation]: 
+[Discussions]: https://github.com/easyscience//discussions
+[Issue Tracker]: https://github.com/easyscience//issues
+[Source Code]: https://github.com/easyscience/
 <!-- prettier-ignore-end -->
