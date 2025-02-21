@@ -1,0 +1,17 @@
+# Project information
+site_name: EasyDiffraction Library
+site_url: https://docs.diffraction.org/lib
+
+# Repository
+repo_url: diffraction-lib
+edit_uri: edit/develop/docs/
+
+# Copyright
+copyright: © 2025 EasyDiffraction
+
+# Format and layout of the global navigation for the site
+nav:
+  - Introduction: index.md
+  - Getting started: getting-started.md
+  - How to use:
+      - how-to-use/index.md
